@@ -12,9 +12,13 @@ import lombok.NoArgsConstructor;
 public class TransferAmountDto {
 	
 	private long sourceCustomerId;
+
 	private long destinationCustomerId;
+
 	private long sourceBankId;
+
 	private long destinationBankId;
+
 	private long amount;
 	
 }

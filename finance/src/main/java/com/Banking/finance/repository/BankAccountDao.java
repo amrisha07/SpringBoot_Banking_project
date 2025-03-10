@@ -9,4 +9,5 @@ import java.util.List;
 public interface BankAccountDao extends CrudRepository<BankAccount, Long>{
 
 	List<BankAccount> findByBankId(long bankId);
+
 }
